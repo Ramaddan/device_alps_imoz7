@@ -1,7 +1,7 @@
 device_alps_imoz7
 =================
 
-CyanogenMod device tree (IMO Onion Z7, mt6577)
+Lineage OS device tree (IMO Onion Z7, mt6577)
 
 DO NOT USE THIS REPOSITORY!!!! WIP
 
