@@ -1,10 +1,12 @@
 # mount point	fstype		device			[device2]
 
-/boot		emmc		boot
-/cache		ext4		/dev/block/mmcblk0p4
-/data		ext4		/dev/block/mmcblk0p5
-/misc		emmc		misc
-/recovery	emmc		recovery
-/sdcard		vfat		/dev/block/mmcblk0p6
-# ?? #/sdcard2	vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1
-/system		ext4		/dev/block/mmcblk0p3
+/boot           emmc      /dev/bootimg
+/recovery       emmc      /dev/recovery
+/uboot          emmc      /dev/uboot              flags=display="uboot";backup=1
+/nvram          emmc      /dev/nvram              flags=display="nvram";backup=1
+/cache          ext4      /emmc@cache
+/data           ext4      /emmc@usrdata
+/system         ext4      /emmc@android
+/emmc           vfat      /emmc@fat
+/sdcard         vfat      /dev/block/mmcblk1p1    /dev/block/mmcblk1
+/sd-ext         auto      /dev/block/mmcblk1p2

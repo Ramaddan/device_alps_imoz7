@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=wiko
-DEVICE=s8073
+VENDOR=alps
+DEVICE=imoz7
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
