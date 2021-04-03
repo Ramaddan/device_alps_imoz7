@@ -1,2 +1,4 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_s8073.mk
+    $(LOCAL_DIR)/device_imoz7.mk
+    
+COMMON_LUNCH_CHOICES :=
